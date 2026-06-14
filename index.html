@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Bank — Conectando Você ao Futuro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════════════ -->
+    <header class="header">
+        <div class="container">
+            <a href="#inicio" class="logo">
+                <div class="logo-mark">N</div>
+                <span class="logo-name">Nexus Bank</span>
+            </a>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="header-cta">
+                <a href="#contato" class="btn-ghost">Entrar</a>
+                <a href="#contato" class="btn-primary">Abrir Conta</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn-primary">Abrir Conta Grátis</a>
+    </nav>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-inner">
+
+                <!-- Left -->
+                <div>
+                    <div class="hero-label reveal">
+                        <span class="tag">
+                            <svg width="8" height="8" viewBox="0 0 8 8">
+                                <circle cx="4" cy="4" r="4" fill="#c3f400" />
+                            </svg>
+                            Sistema Bancário Seguro & Descentralizado
+                        </span>
+                    </div>
+                    <h1 class="reveal reveal-delay-1">
+                        Conectando<br>
+                        Você ao <span class="accent">Futuro</span><br>
+                        Financeiro
+                    </h1>
+                    <p class="reveal reveal-delay-2">
+                        O banco digital que une tecnologia de ponta, segurança descentralizada e a facilidade que você
+                        merece para cuidar do seu dinheiro com total confiança.
+                    </p>
+                    <div class="hero-actions reveal reveal-delay-3">
+                        <a href="#contato" class="btn-primary">
+                            Abrir Conta Grátis
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#servicos" class="btn-ghost">Ver Serviços</a>
+                    </div>
+                    <div class="hero-stats reveal reveal-delay-4">
+                        <div>
+                            <div class="hero-stat-num">500<span>K+</span></div>
+                            <div class="hero-stat-label">Clientes Ativos</div>
+                        </div>
+                        <div>
+                            <div class="hero-stat-num">R$2<span>B+</span></div>
+                            <div class="hero-stat-label">Transacionados</div>
+                        </div>
+                        <div>
+                            <div class="hero-stat-num">99<span>.9%</span></div>
+                            <div class="hero-stat-label">Disponibilidade</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Mockup -->
+                <div class="phone-wrap reveal reveal-delay-2">
+                    <div class="phone-glow"></div>
+
+                    <!-- Badge left -->
+                    <div class="badge-float left glass">
+                        <span class="badge-icon">
+                            <i data-lucide="zap"></i>
+                        </span>
+                        <div>
+                            <div class="badge-num">PIX 24h</div>
+                            <div class="badge-label">Transferência instantânea</div>
+                        </div>
+                    </div>
+
+                    <div class="badge-float right glass">
+                        <span class="badge-icon">
+                            <i data-lucide="shield-check"></i>
+                        </span>
+                        <div>
+                            <div class="badge-num">100% Seguro</div>
+                            <div class="badge-label">Criptografia de ponta</div>
+                        </div>
+                    </div>
+
+                    <div class="phone">
+                        <div class="phone-screen">
+
+                            <!-- top bar -->
+                            <div class="phone-topbar">
+                                <div class="phone-user">
+                                    <div class="phone-avatar">A</div>
+                                    <div>
+                                        <div class="phone-greeting">Olá,</div>
+                                        <div class="phone-name">Alex</div>
+                                    </div>
+                                </div>
+                                <svg width="14" height="18" viewBox="0 0 14 18" fill="none">
+                                    <path
+                                        d="M7 0C4.24 0 2 2.24 2 5v2H1a1 1 0 00-1 1v8a1 1 0 001 1h12a1 1 0 001-1V8a1 1 0 00-1-1h-1V5C12 2.24 9.76 0 7 0zm0 2c1.66 0 3 1.34 3 3v2H4V5c0-1.66 1.34-3 3-3z"
+                                        fill="#484553" />
+                                </svg>
+                            </div>
+
+                            <!-- balance -->
+                            <div class="phone-balance">
+                                <div class="balance-label">Saldo disponível</div>
+                                <div class="balance-val">R$ 12.450,80</div>
+                                <div class="balance-change">↑ +2.4% este mês</div>
+                            </div>
+
+                            <!-- quick actions -->
+                            <div class="phone-actions">
+                                <div class="ph-act">
+                                    <div class="ph-act-btn">
+                                        <i data-lucide="zap"></i>
+                                    </div>
+                                    <span>PIX</span>
+                                </div>
+
+                                <div class="ph-act">
+                                    <div class="ph-act-btn">
+                                        <i data-lucide="credit-card"></i>
+                                    </div>
+                                    <span>Pagar</span>
+                                </div>
+
+                                <div class="ph-act">
+                                    <div class="ph-act-btn">
+                                        <i data-lucide="send"></i>
+                                    </div>
+                                    <span>Transferir</span>
+                                </div>
+
+                                <div class="ph-act">
+                                    <div class="ph-act-btn">
+                                        <i data-lucide="download"></i>
+                                    </div>
+                                    <span>Depositar</span>
+                                </div>
+                            </div>
+
+                            <!-- credit card -->
+                            <div class="phone-card">
+                                <div class="pc-brand">NEXUS</div>
+                                <div class="pc-label">FATURA ATUAL</div>
+                                <div class="pc-val">R$ 3.842,50</div>
+                            </div>
+
+                            <!-- transactions -->
+                            <div class="phone-tx">
+                                <div class="ph-tx-title">Atividade Recente</div>
+                                <div class="ph-tx">
+                                    <div class="ph-tx-left">
+                                        <div class="ph-tx-icon">
+                                            <i data-lucide="coffee"></i>
+                                        </div>
+                                        <div>
+                                            <div class="ph-tx-name">Starbucks Coffee</div>
+                                            <div class="ph-tx-date">Hoje, 09:12</div>
+                                        </div>
+                                    </div>
+                                    <div class="ph-tx-amt neg">- R$ 18,50</div>
+                                </div>
+                                <div class="ph-tx">
+                                    <div class="ph-tx-left">
+                                        <div class="ph-tx-icon">
+                                            <i data-lucide="zap"></i>
+                                        </div>
+                                        <div>
+                                            <div class="ph-tx-name">PIX Recebido</div>
+                                            <div class="ph-tx-date">12 Mai, 14:20</div>
+                                        </div>
+                                    </div>
+                                    <div class="ph-tx-amt pos">+ R$ 1.500,00</div>
+                                </div>
+                            </div>
+
+                            <!-- nav -->
+                            <div class="phone-nav">
+                                <div class="ph-nav-item active">
+                                    <svg width="16" height="18" viewBox="0 0 16 18" fill="#c3f400">
+                                        <path d="M1 7l7-6 7 6v9a1 1 0 01-1 1H2a1 1 0 01-1-1V7z" />
+                                    </svg>
+                                    <span>Home</span>
+                                </div>
+                                <div class="ph-nav-item">
+                                    <svg width="18" height="20" viewBox="0 0 18 20" fill="#484553">
+                                        <rect x="1" y="1" width="16" height="18" rx="2" />
+                                        <line x1="5" y1="6" x2="13" y2="6" stroke="#484553" stroke-width="1.5" />
+                                        <line x1="5" y1="10" x2="13" y2="10" stroke="#484553" stroke-width="1.5" />
+                                        <line x1="5" y1="14" x2="9" y2="14" stroke="#484553" stroke-width="1.5" />
+                                    </svg>
+                                    <span>Extrato</span>
+                                </div>
+                                <div class="ph-nav-item">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#484553"
+                                        stroke-width="1.5">
+                                        <path d="M9 1l2.5 5.5L17 7.5l-4 3.9 1 5.6L9 14.4l-5 2.6 1-5.6-4-3.9 5.5-.5z" />
+                                    </svg>
+                                    <span>PIX</span>
+                                </div>
+                                <div class="ph-nav-item">
+                                    <svg width="20" height="16" viewBox="0 0 20 16" fill="#484553">
+                                        <rect x="1" y="1" width="18" height="14" rx="2" />
+                                        <line x1="1" y1="5" x2="19" y2="5" stroke="rgba(17,19,28,0.5)"
+                                            stroke-width="2" />
+                                    </svg>
+                                    <span>Cartões</span>
+                                </div>
+                                <div class="ph-nav-item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#484553">
+                                        <circle cx="8" cy="5" r="3" />
+                                        <path d="M1 15c0-3.87 3.13-7 7-7s7 3.13 7 7" />
+                                    </svg>
+                                    <span>Perfil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     MARQUEE
+═══════════════════════════════════════════════════ -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <!-- first set -->
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>PIX Instantâneo</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Conta 100% Digital</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Cartão Virtual Gratuito</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Investimentos com até 115% CDI</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Sem Tarifas Mensais</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Atendimento 24 horas</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Seguro de Vida Incluso</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Cashback em Compras</div>
+            <!-- duplicate for seamless loop -->
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>PIX Instantâneo</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Conta 100% Digital</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Cartão Virtual Gratuito</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Investimentos com até 115% CDI</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Sem Tarifas Mensais</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Atendimento 24 horas</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Seguro de Vida Incluso</div>
+            <div class="marquee-item"><svg width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#c3f400" opacity=".5" />
+                </svg>Cashback em Compras</div>
+        </div>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     SOBRE
+═══════════════════════════════════════════════════ -->
+    <section class="section-pad" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+
+                <!-- Image -->
+                <div class="about-img reveal">
+                    <div class="about-img-main">
+                        <div class="about-logo-big">N</div>
+                    </div>
+                    <div class="about-img-card glass">
+                        <div class="about-card-stat">+500K</div>
+                        <div class="about-card-label">Clientes satisfeitos</div>
+                    </div>
+                </div>
+
+                <!-- Text -->
+                <div class="about-text">
+                    <div class="tag reveal" style="margin-bottom:16px">Sobre o Nexus Bank</div>
+                    <h2 class="section-title reveal reveal-delay-1">
+                        Finanças simples para<br>uma vida extraordinária
+                    </h2>
+                    <p class="section-sub reveal reveal-delay-2" style="margin-bottom:20px">
+                        O Nexus Bank nasceu com a missão de democratizar o acesso a serviços financeiros de qualidade.
+                        Combinamos tecnologia descentralizada com uma experiência humana para entregar o que bancos
+                        tradicionais não conseguem.
+                    </p>
+                    <p class="section-sub reveal reveal-delay-2">
+                        <strong style="color:#fff">Nossa missão:</strong> Conectar pessoas ao futuro financeiro com
+                        segurança, transparência e sem burocracia.
+                    </p>
+                    <div class="about-pills reveal reveal-delay-3">
+                        <span class="about-pill">
+                            <i data-lucide="trophy"></i>
+                            Banco Digital do Ano
+                        </span>
+
+                        <span class="about-pill">
+                            <i data-lucide="shield-check"></i>
+                            Regulado pelo Banco Central
+                        </span>
+
+                        <span class="about-pill">
+                            <i data-lucide="star"></i>
+                            4.9/5 no App Store
+                        </span>
+
+                        <span class="about-pill">
+                            <i data-lucide="leaf"></i>
+                            Carbono Neutro
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     SERVIÇOS
+═══════════════════════════════════════════════════ -->
+    <section class="section-pad services-bg" id="servicos">
+        <div class="container">
+            <div class="section-head text-center" style="text-align:center">
+                <span class="tag reveal" style="display:inline-flex;margin-bottom:16px">Nossos Serviços</span>
+                <h2 class="section-title reveal reveal-delay-1" style="margin-bottom:16px">Tudo que você precisa<br>em
+                    um só lugar</h2>
+                <p class="section-sub reveal reveal-delay-2" style="margin:0 auto">Do PIX ao investimento, do cartão à
+                    recarga — o Nexus Bank oferece uma suite completa de serviços financeiros.</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="svc-card reveal">
+                    <div class="svc-icon green">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <div class="svc-title">PIX 24 horas</div>
+                    <div class="svc-desc">Transferências e pagamentos instantâneos a qualquer hora do dia, todos os dias
+                        da semana, sem custo algum.</div>
+                </div>
+
+                <div class="svc-card reveal reveal-delay-1">
+                    <div class="svc-icon purple">
+                        <i data-lucide="credit-card"></i>
+                    </div>
+                    <div class="svc-title">Conta Digital</div>
+                    <div class="svc-desc">Conta corrente completa sem tarifas mensais. Cartão de débito físico e virtual
+                        inclusos no ato de abertura.</div>
+                </div>
+
+                <div class="svc-card reveal reveal-delay-2">
+                    <div class="svc-icon cyan">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <div class="svc-title">Cartão Virtual</div>
+                    <div class="svc-desc">Gere cartões virtuais temporários para compras online com segurança máxima e
+                        total controle de gastos.</div>
+                </div>
+
+                <div class="svc-card reveal reveal-delay-3">
+                    <div class="svc-icon green">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <div class="svc-title">Investimentos</div>
+                    <div class="svc-desc">Renda fixa, CDB e Tesouro Direto com rendimentos de até 115% do CDI. Comece
+                        com apenas R$ 1,00.</div>
+                </div>
+
+                <div class="svc-card reveal reveal-delay-4">
+                    <div class="svc-icon orange">
+                        <i data-lucide="gift"></i>
+                    </div>
+                    <div class="svc-title">Cashback</div>
+                    <div class="svc-desc">Receba de volta parte do que gastou nas suas compras com cartão de crédito
+                        Nexus, automaticamente.</div>
+                </div>
+
+                <div class="svc-card reveal reveal-delay-5">
+                    <div class="svc-icon blue">
+                        <i data-lucide="landmark"></i>
+                    </div>
+                    <div class="svc-title">Empréstimos</div>
+                    <div class="svc-desc">Crédito pessoal com taxas justas, aprovação rápida e contratação 100% pelo
+                        app, sem papelada.</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     DASHBOARD PREVIEW
+═══════════════════════════════════════════════════ -->
+    <section class="dashboard-section" id="app">
+        <div class="container">
+            <div class="dashboard-inner">
+
+                <!-- Text -->
+                <div class="dash-text">
+                    <span class="tag reveal" style="margin-bottom:16px">Experiência no App</span>
+                    <h2 class="section-title reveal reveal-delay-1">Um dashboard feito<br>para você decidir</h2>
+                    <p class="section-sub reveal reveal-delay-2">Visualize saldo, faturas, transações e investimentos
+                        numa interface limpa e intuitiva, projetada para tomadas de decisão rápidas.</p>
+                    <div class="dash-features reveal reveal-delay-3">
+                        <div class="dash-feat">
+                            <div class="dash-feat-icon">
+                                <i data-lucide="eye"></i>
+                            </div>
+                            <div>
+                                <div class="dash-feat-title">Visibilidade Total</div>
+                                <div class="dash-feat-desc">Acompanhe saldo, extrato e fatura em tempo real em uma tela
+                                    organizada.</div>
+                            </div>
+                        </div>
+                        <div class="dash-feat">
+                            <div class="dash-feat-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <div>
+                                <div class="dash-feat-title">Ações Rápidas</div>
+                                <div class="dash-feat-desc">PIX, pagamento, transferência e depósito com apenas um
+                                    toque.</div>
+                            </div>
+                        </div>
+                        <div class="dash-feat">
+                            <div class="dash-feat-icon">
+                                <i data-lucide="bar-chart-3"></i>
+                            </div>
+                            <div>
+                                <div class="dash-feat-title">Análise de Gastos</div>
+                                <div class="dash-feat-desc">Relatórios automáticos que mostram para onde seu dinheiro
+                                    está indo.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard card preview -->
+                <div class="dash-preview reveal reveal-delay-2">
+                    <div class="dash-glow"></div>
+                    <div class="dash-card">
+                        <div class="dc-header">
+                            <div>
+                                <div class="dc-label">Saldo disponível</div>
+                                <div class="dc-balance">R$ 12.450,80</div>
+                                <div class="dc-badge">
+                                    <svg width="10" height="8" viewBox="0 0 10 8">
+                                        <path d="M5 0l5 8H0z" fill="#c3f400" />
+                                    </svg>
+                                    +2.4% este mês
+                                </div>
+                            </div>
+                            <div style="text-align:right">
+                                <div class="dc-label" style="margin-bottom:4px">Fatura atual</div>
+                                <div style="font-family:'Sora',sans-serif;font-size:20px;font-weight:600;color:#fff">R$
+                                    3.842,50</div>
+                            </div>
+                        </div>
+                        <div class="dc-divider"></div>
+                        <!-- Transactions -->
+                        <div class="dc-row">
+                            <div class="dc-row-left">
+                                <div class="dc-tx-icon">
+                                    <i data-lucide="coffee"></i>
+                                </div>
+
+                                <div>
+                                    <div class="dc-tx-name">Starbucks Coffee</div>
+                                    <div class="dc-tx-date">Hoje, 09:12</div>
+                                </div>
+                            </div>
+                            <div class="dc-tx-amt" style="color:var(--text)">- R$ 18,50</div>
+                        </div>
+                        <div class="dc-row">
+                            <div class="dc-row-left">
+
+                                <div class="dc-tx-icon">
+                                    <i data-lucide="shopping-cart"></i>
+                                </div>
+                                <div>
+                                    <div class="dc-tx-name">Supermercado Silva</div>
+                                    <div class="dc-tx-date">Ontem, 18:45</div>
+                                </div>
+                            </div>
+                            <div class="dc-tx-amt" style="color:var(--text)">- R$ 245,30</div>
+                        </div>
+                        <div class="dc-row">
+                            <div class="dc-row-left">
+                                <div class="dc-tx-icon">
+                                    <i data-lucide="zap"></i>
+                                </div>
+                                <div>
+                                    <div class="dc-tx-name">PIX Recebido — J. Carlos</div>
+                                    <div class="dc-tx-date">12 Mai, 14:20</div>
+                                </div>
+                            </div>
+                            <div class="dc-tx-amt" style="color:var(--accent)">+ R$ 1.500,00</div>
+                        </div>
+                        <div class="dc-row">
+                            <div class="dc-row-left">
+                                <div class="dc-tx-icon">
+                                    <i data-lucide="wallet"></i>
+                                </div>
+                                <div>
+                                    <div class="dc-tx-name">Salário Nexus Corp</div>
+                                    <div class="dc-tx-date">Ontem, 08:00</div>
+                                </div>
+                            </div>
+                            <div class="dc-tx-amt" style="color:var(--accent)">+ R$ 5.200,00</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     BENEFÍCIOS
+═══════════════════════════════════════════════════ -->
+    <section class="section-pad services-bg" id="beneficios">
+        <div class="container">
+            <div class="section-head" style="text-align:center">
+                <span class="tag reveal" style="display:inline-flex;margin-bottom:16px">Por que o Nexus?</span>
+                <h2 class="section-title reveal reveal-delay-1" style="margin-bottom:16px">Diferenciais que fazem<br>a
+                    diferença</h2>
+                <p class="section-sub reveal reveal-delay-2" style="margin:0 auto">Construímos o Nexus Bank com foco em
+                    tudo o que os clientes reclamam nos bancos tradicionais.</p>
+            </div>
+            <div class="benefits-grid">
+
+                <div class="ben-card reveal">
+                    <div class="ben-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <div class="ben-title">Segurança Máxima</div>
+                    <div class="ben-desc">Criptografia de ponta a ponta, autenticação biométrica e monitoramento 24h
+                        contra fraudes.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-1">
+
+                    <div class="ben-icon">
+                        <i data-lucide="badge-percent"></i>
+                    </div>
+                    <div class="ben-title">Sem Tarifas</div>
+                    <div class="ben-desc">Conta, cartão, TEDs e DOCs ilimitados sem cobranças mensais. Seu dinheiro fica
+                        100% com você.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-2">
+                    <div class="ben-icon">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <div class="ben-title">Facilidade de Uso</div>
+                    <div class="ben-desc">Interface intuitiva e responsiva que torna qualquer operação financeira
+                        simples e rápida.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-3">
+
+                    <div class="ben-icon">
+                        <i data-lucide="messages-square"></i>
+                    </div>
+                    <div class="ben-title">Atendimento 24h</div>
+                    <div class="ben-desc">Suporte via chat, telefone ou e-mail a qualquer hora. Resolvemos seu problema
+                        em minutos.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-4">
+                    <div class="ben-icon">
+                        <i data-lucide="rocket"></i>
+                    </div>
+
+                    <div class="ben-title">Tecnologia Moderna</div>
+                    <div class="ben-desc">Infraestrutura cloud nativa com 99.9% de uptime. Atualizações constantes sem
+                        interrupção.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-5">
+                    <div class="ben-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="ben-title">Sustentabilidade</div>
+                    <div class="ben-desc">Operações 100% carbono neutro. Cada conta aberta contribui para projetos de
+                        reflorestamento.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-1">
+                    <div class="ben-icon">
+                        <i data-lucide="target"></i>
+                    </div>
+
+                    <div class="ben-title">Metas Financeiras</div>
+                    <div class="ben-desc">Crie objetivos de poupança, monitore seu progresso e receba dicas
+                        personalizadas de IA.</div>
+                </div>
+
+                <div class="ben-card reveal reveal-delay-2">
+                    <div class="ben-icon">
+                        <i data-lucide="network"></i>
+                    </div>
+                    <div class="ben-title">Internacional</div>
+                    <div class="ben-desc">Realize transferências internacionais e use seu cartão no exterior com as
+                        melhores taxas do mercado.</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     CTA FINAL
+═══════════════════════════════════════════════════ -->
+    <section class="cta-section" id="contato">
+        <div class="container">
+            <div class="cta-inner">
+                <span class="tag reveal">Abra sua Conta</span>
+                <h2 class="section-title reveal reveal-delay-1">
+                    Pronto para o futuro<br>das suas finanças?
+                </h2>
+                <p class="section-sub reveal reveal-delay-2">
+                    Junte-se a mais de 500 mil clientes que já descobriram o jeito Nexus de cuidar do dinheiro.
+                    Gratuito, seguro e 100% digital.
+                </p>
+                <div class="cta-actions reveal reveal-delay-3">
+                    <a href="#" class="btn-primary">
+                        Abrir Conta Grátis
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="mailto:contato@nexusbank.com.br" class="btn-ghost">Fale Conosco</a>
+                </div>
+                <p class="cta-note reveal reveal-delay-4">
+                    Abertura em menos de <span>3 minutos</span> · Sem burocracia · Sem tarifas
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════ -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo" style="margin-bottom:16px;display:inline-flex">
+                        <div class="logo-mark">N</div>
+                        <span class="logo-name">Nexus Bank</span>
+                    </a>
+                    <p>Sistema bancário seguro e descentralizado. Conectando você ao futuro financeiro com tecnologia,
+                        simplicidade e confiança.</p>
+                    <div class="footer-socials">
+                        <div class="social-btn">𝕏</div>
+                        <div class="social-btn">in</div>
+                        <div class="social-btn">f</div>
+                        <div class="social-btn">▶</div>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Produto</h4>
+                    <ul>
+                        <li><a href="#servicos">Conta Digital</a></li>
+                        <li><a href="#servicos">Cartão de Crédito</a></li>
+                        <li><a href="#servicos">Investimentos</a></li>
+                        <li><a href="#servicos">PIX & Pagamentos</a></li>
+                        <li><a href="#servicos">Empréstimos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                        <li><a href="#">Parceiros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="mailto:contato@nexusbank.com.br">contato@nexusbank.com.br</a></li>
+                        <li><a href="tel:08000000000">0800 000 0000</a></li>
+                        <li><a href="#">Chat 24h no App</a></li>
+                        <li><a href="#">Ouvidoria</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 <span>Nexus Bank</span> · Todos os direitos reservados · CNPJ 00.000.000/0001-00</p>
+                <div class="footer-tagline">SECURE DECENTRALIZED BANKING SYSTEM</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
